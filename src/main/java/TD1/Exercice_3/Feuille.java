@@ -2,13 +2,13 @@ package TD1.Exercice_3;
 
 import java.util.Set;
 
-public class Feuille implements Arbre{
-    public final int valeur;
+public class Feuille implements Arbre {
 
-    public Feuille(int valeur) {
+    private final int valeur;
+
+    public Feuille(final int valeur) {
         this.valeur = valeur;
     }
-
 
     @Override
     public int taille() {
@@ -16,32 +16,36 @@ public class Feuille implements Arbre{
     }
 
     @Override
-    public boolean contient(Integer val) {
-        return false;
+    public boolean contient(final Integer val) {
+        return val.equals(valeur);
     }
 
     @Override
     public Set<Integer> valeurs() {
-        return null;
+        return Set.of(valeur);
     }
 
     @Override
     public Integer somme() {
-        return null;
+        return valeur;
     }
 
     @Override
     public Integer min() {
-        return null;
+        return valeur;
     }
 
     @Override
     public Integer max() {
-        return null;
+        return valeur;
     }
 
+    /**
+     * une feuille est toujours triée.
+     */
     @Override
     public boolean estTrie() {
-        return false;
+        return true;
     }
+    
 }
