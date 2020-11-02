@@ -22,11 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="Arbres Generiques">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_2/Paire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_2/Paire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3/Noeud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,15 +100,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis" />
-      <recent name="$PROJECT_DIR$/src/main/java/TD1/Exercice_3_Bis" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/TD1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis" />
+      <recent name="$PROJECT_DIR$/src/main/java/TD1/Exercice_3_Bis" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,6 +122,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,7 +155,8 @@
       <workItem from="1603194639412" duration="17000" />
       <workItem from="1604320894537" duration="1575000" />
       <workItem from="1604324637635" duration="1978000" />
-      <workItem from="1604326920425" duration="1620000" />
+      <workItem from="1604326920425" duration="1839000" />
+      <workItem from="1604329381914" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1603117694140</created>
@@ -169,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604324951943</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Arbres Generiques">
+      <created>1604329205105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604329205105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Correction Exercice 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction Exercice 3" />
+    <MESSAGE value="Arbres Generiques" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arbres Generiques" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1604325667388">
@@ -201,18 +219,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="462" y="281" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1604324011569" />
-    <state x="320" y="98" key="#Plugins" timestamp="1604326971884">
+    <state x="320" y="98" key="#Plugins" timestamp="1604329514337">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1604326971884" />
-    <state x="208" y="31" key="#Project_Structure" timestamp="1604327036364">
+    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1604329514337" />
+    <state x="208" y="31" key="#Project_Structure" timestamp="1604330234855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1604327036364" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1604328419535">
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1604330234855" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1604331377215">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604328419535" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604331377215" />
     <state x="434" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604326872953">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -241,10 +259,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604326891656" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604324974804">
+    <state x="229" y="89" key="SettingsEditor" timestamp="1604329650743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604324974804" />
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604329650743" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604329207911">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604329207911" />
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603117700565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -253,9 +275,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="316" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1603117253312" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1604326958615">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1604329496202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604326958615" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604329496202" />
   </component>
 </project>
