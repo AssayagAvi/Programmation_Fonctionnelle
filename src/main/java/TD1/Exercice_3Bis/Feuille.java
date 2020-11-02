@@ -2,7 +2,7 @@ package TD1.Exercice_3Bis;
 
 import java.util.Set;
 
-public class Feuille<T> implements Arbre<T> {
+public class Feuille<T extends Sommable<T> & Comparable<T>> implements Arbre<T> {
     private final T valeur;
 
     public Feuille(T valeur) {
@@ -23,5 +23,25 @@ public class Feuille<T> implements Arbre<T> {
     @Override
     public Set<T> valeurs() {
         return Set.of(valeur);
+    }
+
+    @Override
+    public T somme() {
+        return valeur;
+    }
+
+    @Override
+    public T min() {
+        return valeur;
+    }
+
+    @Override
+    public T max() {
+        return valeur;
+    }
+
+    @Override
+    public boolean estTrie() {
+        return true;
     }
 }
