@@ -1,4 +1,4 @@
-package TD1;
+package TD1.Exercice_2;
 
 public class App {
     public static void question2() {

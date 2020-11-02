@@ -1,4 +1,4 @@
-package TD1;
+package TD1.Exercice_3;
 
 import java.util.Set;
 

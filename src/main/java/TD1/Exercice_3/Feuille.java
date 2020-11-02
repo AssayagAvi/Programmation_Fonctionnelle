@@ -1,19 +1,18 @@
-package TD1;
+package TD1.Exercice_3;
 
-import java.util.List;
 import java.util.Set;
 
-public class Noeud implements Arbre{
-    public final List<Arbre> fils;
+public class Feuille implements Arbre{
+    public final int valeur;
 
-    public Noeud(List<Arbre> fils) {
-        this.fils = fils;
+    public Feuille(int valeur) {
+        this.valeur = valeur;
     }
 
 
     @Override
     public int taille() {
-        return 0;
+        return 1;
     }
 
     @Override
