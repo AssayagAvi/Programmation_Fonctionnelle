@@ -22,10 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="Test">
+    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3/Arbre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3/Arbre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3/Feuille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3/Feuille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_2/Paire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_2/Paire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3/Noeud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Programmation_Fonctionnelle" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +72,9 @@
         <option value="https://github.com/AssayagAvi/Programmation_Fonctionnelle" />
       </set>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis/Arbre.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -77,13 +97,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis" />
+      <recent name="$PROJECT_DIR$/src/main/java/TD1/Exercice_3_Bis" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/TD1" />
@@ -120,7 +145,8 @@
       <workItem from="1603116844844" duration="4406000" />
       <workItem from="1603194639412" duration="17000" />
       <workItem from="1604320894537" duration="1575000" />
-      <workItem from="1604324637635" duration="285000" />
+      <workItem from="1604324637635" duration="1978000" />
+      <workItem from="1604326920425" duration="1620000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1603117694140</created>
@@ -136,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604322080260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Correction Exercice 3">
+      <created>1604324951943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604324951943</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,25 +189,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Correction Exercice 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction Exercice 3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="354" y="135" key="#Inspections" timestamp="1604325667388">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1604325667388" />
     <state x="462" y="281" key="#Notifications" timestamp="1604324011569">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="462" y="281" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1604324011569" />
-    <state x="320" y="98" key="#Plugins" timestamp="1604323991788">
+    <state x="320" y="98" key="#Plugins" timestamp="1604326971884">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1604323991788" />
-    <state x="208" y="31" key="#Project_Structure" timestamp="1603117351998">
+    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1604326971884" />
+    <state x="208" y="31" key="#Project_Structure" timestamp="1604327036364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1603117351998" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1603121736315">
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1604327036364" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1604328419535">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603121736315" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604328419535" />
+    <state x="434" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604326872953">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="434" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1604326872953" />
     <state x="540" y="354" key="Github.ShareDialog" timestamp="1603116903629">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -183,26 +225,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="432" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603116917397" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1603127395154">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1604326891657">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603127395154" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1603127395151">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604326891657" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1604326891655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603127395151" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1603127395150">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604326891655" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1604326891654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603127395150" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1603127395151">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604326891654" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1604326891656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603127395151" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604322087536">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604326891656" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604324974804">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604322087536" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604324974804" />
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603117700565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -211,9 +253,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="316" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1603117253312" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1604323934123">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1604326958615">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604323934123" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604326958615" />
   </component>
 </project>

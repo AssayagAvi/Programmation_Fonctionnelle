@@ -25,7 +25,10 @@ public class Noeud implements Arbre {
     public boolean contient(final Integer val) {
         boolean rtr = false;
         for (final Arbre a : fils) {
-            if (a.contient(val)) return true;
+            if (a.contient(val)) {
+                rtr = true;
+                break;
+            }
         }
         return rtr;
     }
