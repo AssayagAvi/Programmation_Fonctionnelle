@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Noeud<T extends Sommable<T>> implements Arbre<T>{
+public class Noeud<T extends Sommable<T> & Comparable<T>> implements Arbre<T>{
 
     private final List<Arbre<T>> fils;
 
@@ -50,5 +50,20 @@ public class Noeud<T extends Sommable<T>> implements Arbre<T>{
         for (int i = 1; i < fils.size(); i++)
             rtr = rtr.sommer(fils.get(i).somme());
         return rtr;
+    }
+
+    @Override
+    public T min() {
+        return null;
+    }
+
+    @Override
+    public T max() {
+        return null;
+    }
+
+    @Override
+    public boolean estTrie() {
+        return false;
     }
 }

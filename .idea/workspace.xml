@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="Arbres Generiques">
+    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="Questionv 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis/Arbre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis/Arbre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis/Feuille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis/Feuille.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis/Noeud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +102,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -160,7 +158,9 @@
       <workItem from="1604320894537" duration="1575000" />
       <workItem from="1604324637635" duration="1978000" />
       <workItem from="1604326920425" duration="1839000" />
-      <workItem from="1604329381914" duration="4925000" />
+      <workItem from="1604329381914" duration="5682000" />
+      <workItem from="1604931101419" duration="248000" />
+      <workItem from="1604931525712" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1603117694140</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604331849136</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Questionv 5">
+      <created>1604334942701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604334942702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +226,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Correction Exercice 3" />
     <MESSAGE value="Arbres Generiques" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arbres Generiques" />
+    <MESSAGE value="Questionv 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Questionv 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1604325667388">
@@ -238,10 +246,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1604330234855" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1604334886290">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1604335046040">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604334886290" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604335046040" />
     <state x="434" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604326872953">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -274,14 +282,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604326891656" />
-    <state x="311" y="81" key="SettingsEditor" timestamp="1604334726101">
+    <state x="231" y="135" width="1011" height="722" key="SettingsEditor" timestamp="1604932368853">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="311" y="81" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604334726101" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604331851139">
+    <state x="231" y="135" width="1011" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604932368853" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604334947211">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604331851139" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604334947211" />
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603117700565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
