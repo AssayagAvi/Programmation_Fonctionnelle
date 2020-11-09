@@ -10,7 +10,7 @@ public class App {
 
 
     public static void question2(){
-        Paire<Integer,Integer> avi = new Paire<>(82,86);
+        Paire<Integer,Integer> avi = new Paire<>(120,70);
 
         Predicate <Integer> tropPetit = x-> x<100;
         System.out.println("Petit :" + tropPetit.test(avi.fst));
@@ -27,6 +27,8 @@ public class App {
         Predicate <Integer> tropLourd = x-> x>150;
         System.out.println("Lourd : " + tropLourd.test(avi.snd));
 
+        Predicate<Integer> accesAuthorise = tailleCorrect.and(Predicate.not(tropLourd));
+        System.out.println("accesAuthorise.test(avi.fst) && = " + accesAuthorise.test(avi.fst));
     }
 
 }
