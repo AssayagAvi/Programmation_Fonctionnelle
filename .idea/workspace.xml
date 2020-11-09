@@ -22,9 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="TD 2 &#10;Question 1 et 3">
+    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="TD 2 &#10;Modif">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TD2/Exercice1/ToString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TD2/Exercice2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD2/Exercice2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TD2/Exercice2/Paire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD2/Exercice2/Paire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +120,26 @@
       <recent name="$PROJECT_DIR$/TD1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TD2.Exercice1.App" />
       <module name="Programmation_Fonctionnelle.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TD2.Exercice1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TD2.Exercice2.App" />
+      <module name="Programmation_Fonctionnelle.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TD2.Exercice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
       </list>
@@ -177,7 +194,7 @@
       <workItem from="1604326920425" duration="1839000" />
       <workItem from="1604329381914" duration="5682000" />
       <workItem from="1604931101419" duration="248000" />
-      <workItem from="1604931525712" duration="4010000" />
+      <workItem from="1604931525712" duration="6189000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1603117694140</created>
@@ -235,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604935560111</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TD 2 &#10;Modif">
+      <created>1604937334976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604937334977</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TD 2 &#10;Modif">
+      <created>1604937400791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604937400791</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +291,8 @@
     <MESSAGE value="Questionv 5" />
     <MESSAGE value="TD 2" />
     <MESSAGE value="TD 2 &#10;Question 1 et 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="TD 2 &#10;Question 1 et 3" />
+    <MESSAGE value="TD 2 &#10;Modif" />
+    <option name="LAST_COMMIT_MESSAGE" value="TD 2 &#10;Modif" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1604325667388">
@@ -299,30 +331,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="432" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603116917397" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1604326891657">
+    <state width="1394" height="244" key="GridCell.Tab.0.bottom" timestamp="1604939168626">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604326891657" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1604326891655">
+    <state width="1394" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604939168626" />
+    <state width="1394" height="244" key="GridCell.Tab.0.center" timestamp="1604939168625">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604326891655" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1604326891654">
+    <state width="1394" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604939168625" />
+    <state width="1394" height="244" key="GridCell.Tab.0.left" timestamp="1604939168624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604326891654" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1604326891656">
+    <state width="1394" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604939168624" />
+    <state width="1394" height="244" key="GridCell.Tab.0.right" timestamp="1604939168625">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604326891656" />
+    <state width="1394" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604939168625" />
     <state x="231" y="135" width="1011" height="722" key="SettingsEditor" timestamp="1604934775740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="231" y="135" width="1011" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604934775740" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604935563435">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604937405171">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604935563435" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604937405171" />
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603117700565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

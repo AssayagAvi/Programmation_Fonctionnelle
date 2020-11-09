@@ -1,8 +1,8 @@
 package TD2.Exercice2;
 
 public class Paire<T,U> {
-    public T fst;
-    public U snd;
+    public T fst; //taille
+    public U snd; //poids
     public Paire(T fst, U snd) {
         this.fst = fst;
         this.snd = snd;
