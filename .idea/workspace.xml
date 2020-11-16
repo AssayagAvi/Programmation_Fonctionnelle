@@ -24,7 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="Exercie 2 TD 2">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TD2/Exercice2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD2/Exercice2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TD1/Exercice_2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD1/Exercice_2/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +59,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="UML Class" />
         <option value="Class" />
       </list>
     </option>
@@ -90,32 +95,34 @@
   <component name="PropertiesComponent">
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="TD2.Exercice1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/TD2/Exercice3" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/TD1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/TD1/Exercice_3Bis" />
       <recent name="$PROJECT_DIR$/src/main/java/TD1/Exercice_3_Bis" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/TD1" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TD2.Exercice1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (2)">
+  <component name="RunManager" selected="Application.App (3)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TD2.Exercice1.App" />
       <module name="Programmation_Fonctionnelle.main" />
@@ -135,6 +142,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TD2.Exercice2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TD2.Exercice3.App" />
+      <module name="Programmation_Fonctionnelle.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TD2.Exercice3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
@@ -189,7 +210,13 @@
       <workItem from="1604326920425" duration="1839000" />
       <workItem from="1604329381914" duration="5682000" />
       <workItem from="1604931101419" duration="248000" />
-      <workItem from="1604931525712" duration="6659000" />
+      <workItem from="1604931525712" duration="7374000" />
+      <workItem from="1604943617011" duration="146000" />
+      <workItem from="1604943790848" duration="1001000" />
+      <workItem from="1604944931330" duration="143000" />
+      <workItem from="1604945348957" duration="384000" />
+      <workItem from="1605017050937" duration="146000" />
+      <workItem from="1605530594889" duration="3620000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1603117694140</created>
@@ -268,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604939416257</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Exercie 2 TD 2">
+      <created>1604939877635</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604939877635</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,10 +340,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="462" y="281" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1604324011569" />
-    <state x="320" y="98" key="#Plugins" timestamp="1604329514337">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="110" key="#Plugins" timestamp="1604945077668">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1604329514337" />
+    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1604943218426" />
+    <state x="320" y="110" key="#Plugins/0.23.1440.797@0.23.1440.797" timestamp="1604945077668" />
     <state x="208" y="31" key="#Project_Structure" timestamp="1604330234855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -334,41 +369,55 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="432" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603116917397" />
-    <state width="1394" height="244" key="GridCell.Tab.0.bottom" timestamp="1604939462526">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1605534493692">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1394" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604939462526" />
-    <state width="1394" height="244" key="GridCell.Tab.0.center" timestamp="1604939462524">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534493692" />
+    <state width="1394" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604940026171" />
+    <state width="1394" height="244" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1604943325227" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1605534493690">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1394" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604939462524" />
-    <state width="1394" height="244" key="GridCell.Tab.0.left" timestamp="1604939462522">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534493690" />
+    <state width="1394" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604940026169" />
+    <state width="1394" height="244" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1604943325226" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1605534493689">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1394" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604939462522" />
-    <state width="1394" height="244" key="GridCell.Tab.0.right" timestamp="1604939462525">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534493689" />
+    <state width="1394" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604940026168" />
+    <state width="1394" height="244" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1604943325226" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1605534493691">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1394" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604939462525" />
-    <state x="231" y="135" width="1011" height="722" key="SettingsEditor" timestamp="1604934775740">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534493691" />
+    <state width="1394" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604940026170" />
+    <state width="1394" height="244" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1604943325226" />
+    <state x="231" y="135" width="1011" height="722" key="SettingsEditor" timestamp="1604945708302">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="231" y="135" width="1011" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604934775740" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604939418957">
+    <state x="231" y="135" width="1011" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604945708302" />
+    <state x="323" y="23" width="1011" height="722" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1604945469694" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604939879658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604939418957" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604939879658" />
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603117700565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1603117700565" />
+    <state x="120" y="27" key="new project wizard" timestamp="1605017137348">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="120" y="27" key="new project wizard/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605017137348" />
     <state x="520" y="316" key="scopes" timestamp="1603117253312">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="316" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1603117253312" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1604329496202">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="385" y="197" width="670" height="599" key="search.everywhere.popup" timestamp="1604944938622">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604329496202" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604943133783" />
+    <state x="385" y="197" width="670" height="599" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1604944938622" />
   </component>
 </project>
