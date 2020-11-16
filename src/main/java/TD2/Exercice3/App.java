@@ -29,11 +29,24 @@ public class App {
         return defaillant;
     };
 
-    static Predicate<Etudiant> naPasLaMoyennev1 = x -> moyenne(x)<10;
+    // En supposant que la fonction moyenne fonctionne
     //Unboxing of 'moyenne(x)' may produce 'NullPointerException'
+    static Predicate<Etudiant> naPasLaMoyennev1 = x -> moyenne(x)<10;
 
-    static Predicate<Etudiant> naPasLaMoyennev2 = x -> moyenne(x)==null || moyenne(x)<10;
+
+    // En supposant que la fonction moyenne fonctionne
     // D'abord verifier x==null ensuite x<= 10
+    static Predicate<Etudiant> naPasLaMoyennev2 = x -> moyenne(x)==null || moyenne(x)<10;
+
+
+
+    /*  1. naPasLaMoyennev1 -> aNoteEliminatoire -> aDEF == Erreur dabord verifier aDEF
+        2. aNoteEliminatoire -> naPasLaMoyennev1 -> aDEF == Erreur dabord verifier aDEF
+        3. aDEF -> aNoteEliminatoire -> naPasLaMoyennev1 == OK Session 2
+        4. aDEF -> naPasLaMoyennev1 -> aNoteEliminatoire  == OK Session 2
+        L'ordre entre "aNoteEliminatoire" et "naPasLaMoyennev1" ne change rien      */
+    static Predicate<Etudiant> session2v1 = x-> aDEF.or(naPasLaMoyennev1).or(aNoteEliminatoire).test(x);
+
 
     private static void afficheSi(String entete, Predicate<Etudiant> condition, Annee annee) {
         System.out.println(String.format("** %s",entete));
@@ -111,7 +124,8 @@ public class App {
         // afficheSi("Etudiants Défaillant :",aDEF,a1);
         // afficheSi("Etudiants Note Eliminatoire",aNoteEliminatoire,a1);
         // afficheSi("Etudiants pas la moyenne V1",naPasLaMoyennev1,a1);
-        afficheSi("Etudiants pas la moyenne V2",naPasLaMoyennev2,a1);
+        //afficheSi("Etudiants pas la moyenne V2",naPasLaMoyennev2,a1);
+        afficheSi("Etudiants pas la moyenne V2",session2v1,a1);
     }
 
 
