@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="Exercice 3 Question 1">
+    <list default="true" id="4ab0fd23-e91a-4b3e-9aa1-4d723f90e6dd" name="Default Changelist" comment="Exercice 3 Question 2">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TD2/Exercice3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TD2/Exercice3/App.java" afterDir="false" />
     </list>
@@ -44,7 +45,23 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Programmation_Fonctionnelle" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Programmation_Fonctionnelle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Programmation_Fonctionnelle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -102,7 +119,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -171,19 +188,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Programmation_Fonctionnelle [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Programmation_Fonctionnelle [clean]" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
@@ -212,7 +251,8 @@
       <workItem from="1604944931330" duration="143000" />
       <workItem from="1604945348957" duration="384000" />
       <workItem from="1605017050937" duration="146000" />
-      <workItem from="1605530594889" duration="5253000" />
+      <workItem from="1605530594889" duration="6390000" />
+      <workItem from="1605549121117" duration="2182000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1603117694140</created>
@@ -305,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605534569836</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Exercice 3 Question 2">
+      <created>1605536664441</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605536664441</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +380,8 @@
     <MESSAGE value="TD 2 &#10;Modif" />
     <MESSAGE value="Exercie 2 TD 2" />
     <MESSAGE value="Exercice 3 Question 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 3 Question 1" />
+    <MESSAGE value="Exercice 3 Question 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 3 Question 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1604325667388">
@@ -344,11 +392,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="462" y="281" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1604324011569" />
-    <state x="320" y="110" key="#Plugins" timestamp="1604945077668">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="320" y="111" key="#Plugins" timestamp="1605549787245">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1604943218426" />
     <state x="320" y="110" key="#Plugins/0.23.1440.797@0.23.1440.797" timestamp="1604945077668" />
+    <state x="320" y="111" key="#Plugins/0.23.1440.803/1440.23.1920.1057@0.23.1440.803" timestamp="1605549787245" />
     <state x="208" y="31" key="#Project_Structure" timestamp="1604330234855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -373,39 +422,45 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="432" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603116917397" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1605534518530">
+    <state width="1394" height="292" key="GridCell.Tab.0.bottom" timestamp="1605551808121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534518530" />
+    <state width="1394" height="292" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605551808121" />
     <state width="1394" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604940026171" />
     <state width="1394" height="244" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1604943325227" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1605534518528">
+    <state width="1394" height="245" key="GridCell.Tab.0.bottom/0.23.1440.800/1440.23.1920.1057@0.23.1440.800" timestamp="1605548431144" />
+    <state width="1394" height="292" key="GridCell.Tab.0.center" timestamp="1605551808119">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534518528" />
+    <state width="1394" height="292" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605551808119" />
     <state width="1394" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604940026169" />
     <state width="1394" height="244" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1604943325226" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1605534518526">
+    <state width="1394" height="245" key="GridCell.Tab.0.center/0.23.1440.800/1440.23.1920.1057@0.23.1440.800" timestamp="1605548431143" />
+    <state width="1394" height="292" key="GridCell.Tab.0.left" timestamp="1605551808117">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534518526" />
+    <state width="1394" height="292" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605551808117" />
     <state width="1394" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604940026168" />
     <state width="1394" height="244" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1604943325226" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1605534518529">
+    <state width="1394" height="245" key="GridCell.Tab.0.left/0.23.1440.800/1440.23.1920.1057@0.23.1440.800" timestamp="1605548431142" />
+    <state width="1394" height="292" key="GridCell.Tab.0.right" timestamp="1605551808120">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534518529" />
+    <state width="1394" height="292" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605551808120" />
     <state width="1394" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604940026170" />
     <state width="1394" height="244" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1604943325226" />
-    <state x="231" y="135" width="1011" height="722" key="SettingsEditor" timestamp="1604945708302">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1394" height="245" key="GridCell.Tab.0.right/0.23.1440.800/1440.23.1920.1057@0.23.1440.800" timestamp="1605548431143" />
+    <state x="231" y="101" width="1011" height="722" key="SettingsEditor" timestamp="1605550045062">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="231" y="135" width="1011" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604945708302" />
     <state x="323" y="23" width="1011" height="722" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1604945469694" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605534572271">
+    <state x="231" y="101" width="1011" height="722" key="SettingsEditor/0.23.1440.800/1440.23.1920.1057@0.23.1440.800" timestamp="1605548421811" />
+    <state x="231" y="101" key="SettingsEditor/0.23.1440.803/1440.23.1920.1057@0.23.1440.803" timestamp="1605550045062" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605536666674">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605534572271" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605536666674" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604939879658" />
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603117700565">
       <screen x="0" y="0" width="1440" height="900" />
@@ -419,10 +474,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="316" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1603117253312" />
-    <state x="385" y="197" width="670" height="599" key="search.everywhere.popup" timestamp="1604944938622">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="385" y="198" width="670" height="604" key="search.everywhere.popup" timestamp="1605549760175">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604943133783" />
     <state x="385" y="197" width="670" height="599" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1604944938622" />
+    <state x="385" y="198" width="670" height="604" key="search.everywhere.popup/0.23.1440.803/1440.23.1920.1057@0.23.1440.803" timestamp="1605549760175" />
   </component>
 </project>

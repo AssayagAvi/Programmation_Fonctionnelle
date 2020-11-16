@@ -16,7 +16,7 @@ public class App {
     }
 
     private static void afficheSi2(String entete, Predicate<Etudiant> condition, Annee annee) {
-        System.out.println(String.format("** %s",entete));
+        System.out.printf("** %s%n",entete);
         for (Etudiant e : annee.etudiants()){
             if (condition.test(e)){
                 System.out.println(e);
@@ -53,6 +53,7 @@ public class App {
         e3.noter(m3, 14.0);
 
         Predicate<Etudiant> tousLesEtudiants = etudiant -> true;
+
         Predicate<Etudiant> aDEF = e-> {
             Set<Matiere> toutesLesMatieresDeLetudiant = App.toutesLesMatieresDeLannee(e.annee());
             for(Matiere m : toutesLesMatieresDeLetudiant){
@@ -60,12 +61,25 @@ public class App {
                     return true;
                 }
             }
-
             return false;
         };
 
-        //afficheSi("Liste des Etudiants (foreach) :",tousLesEtudiants,a1);
-        afficheSi("Liste des Etudiants Défaillant :",aDEF,a1);
+
+        Predicate<Etudiant> aNoteEliminatoire = x -> {
+            boolean defaillant = false;
+            for(double note : x.notes().values()){
+                if(note < 6) {
+                    defaillant = true;
+                    break;
+                }
+            }
+            return defaillant;
+        };
+
+
+        //afficheSi("Etudiants (foreach) :",tousLesEtudiants,a1);
+        //afficheSi("Etudiants Défaillant :",aDEF,a1);
+        //afficheSi("Etudiants Note Eliminatoire",aNoteEliminatoire,a1);
     }
 
 
