@@ -32,6 +32,22 @@ public class App {
         return rtr;
     }
 
+    public static Double moyenne (Etudiant etudiant, Predicate<Etudiant> predicate ){
+        final double moyenneEtudiant [] = {0.0};
+        final int ects [] = {0};
+        if (predicate.test(etudiant)){
+            return null;
+        }
+        etudiant.annee().ues().forEach(ue -> {
+            ue.ects().forEach((matiere,coefficiant) ->{
+                ects[0]= ects[0] + coefficiant;
+                moyenneEtudiant[0] = etudiant.notes().get(matiere)*coefficiant;
+            });
+        });
+        moyenneEtudiant[0] = moyenneEtudiant[0]/ects[0];
+        return moyenneEtudiant[0];
+
+    }
     public static void main(String[] args) {
         Matiere m1 = new Matiere("MAT1");
         Matiere m2 = new Matiere("MAT2");
