@@ -5,6 +5,36 @@ import java.util.function.Predicate;
 
 public class App {
 
+
+    static  Predicate<Etudiant> tousLesEtudiants = x -> true;
+
+    static Predicate<Etudiant> aDEF = e-> {
+        Set<Matiere> toutesLesMatieresDeLetudiant = App.toutesLesMatieresDeLannee(e.annee());
+        for(Matiere m : toutesLesMatieresDeLetudiant){
+            if (!e.notes().containsKey(m)){
+                return true;
+            }
+        }
+        return false;
+    };
+
+    static Predicate<Etudiant> aNoteEliminatoire = x -> {
+        boolean defaillant = false;
+        for(double note : x.notes().values()){
+            if(note < 6) {
+                defaillant = true;
+                break;
+            }
+        }
+        return defaillant;
+    };
+
+    static Predicate<Etudiant> naPasLaMoyennev1 = x -> moyenne(x)<10;
+    //Unboxing of 'moyenne(x)' may produce 'NullPointerException'
+
+    static Predicate<Etudiant> naPasLaMoyennev2 = x -> moyenne(x)==null || moyenne(x)<10;
+    // D'abord verifier x==null ensuite x<= 10
+
     private static void afficheSi(String entete, Predicate<Etudiant> condition, Annee annee) {
         System.out.println(String.format("** %s",entete));
         annee.etudiants().forEach(e -> {
@@ -32,22 +62,31 @@ public class App {
         return rtr;
     }
 
-    public static Double moyenne (Etudiant etudiant, Predicate<Etudiant> predicate ){
-        final double moyenneEtudiant [] = {0.0};
-        final int ects [] = {0};
-        if (predicate.test(etudiant)){
-            return null;
+    private static Map<Matiere,Integer> matiereEtCoeffEtudiant(Etudiant etudiant){
+        Map<Matiere,Integer> tmp = new HashMap<>();
+        for (UE ue : etudiant.annee().ues()){
+            tmp.putAll(ue.ects());
         }
-        etudiant.annee().ues().forEach(ue -> {
-            ue.ects().forEach((matiere,coefficiant) ->{
-                ects[0]= ects[0] + coefficiant;
-                moyenneEtudiant[0] = etudiant.notes().get(matiere)*coefficiant;
-            });
-        });
-        moyenneEtudiant[0] = moyenneEtudiant[0]/ects[0];
-        return moyenneEtudiant[0];
-
+        return tmp;
     }
+
+
+    public static Double moyenne(Etudiant etudiant) {
+
+        if(aDEF.test(etudiant))
+            return null;
+
+        Double numerateur = 0.0;
+        Double denominateur = 0.0;
+        Map<Matiere, Integer> etudiantMatieresAndEcts = matiereEtCoeffEtudiant(etudiant);
+
+        for (Matiere m : etudiantMatieresAndEcts.keySet()) {
+            numerateur += etudiant.notes().get(m) * etudiantMatieresAndEcts.get(m);
+            denominateur += etudiantMatieresAndEcts.get(m);
+        }
+        return numerateur / denominateur;
+    }
+
     public static void main(String[] args) {
         Matiere m1 = new Matiere("MAT1");
         Matiere m2 = new Matiere("MAT2");
@@ -68,34 +107,11 @@ public class App {
         e3.noter(m2, 5.0);
         e3.noter(m3, 14.0);
 
-        Predicate<Etudiant> tousLesEtudiants = etudiant -> true;
-
-        Predicate<Etudiant> aDEF = e-> {
-            Set<Matiere> toutesLesMatieresDeLetudiant = App.toutesLesMatieresDeLannee(e.annee());
-            for(Matiere m : toutesLesMatieresDeLetudiant){
-                if (!e.notes().containsKey(m)){
-                    return true;
-                }
-            }
-            return false;
-        };
-
-
-        Predicate<Etudiant> aNoteEliminatoire = x -> {
-            boolean defaillant = false;
-            for(double note : x.notes().values()){
-                if(note < 6) {
-                    defaillant = true;
-                    break;
-                }
-            }
-            return defaillant;
-        };
-
-
-        //afficheSi("Etudiants (foreach) :",tousLesEtudiants,a1);
-        //afficheSi("Etudiants Défaillant :",aDEF,a1);
-        //afficheSi("Etudiants Note Eliminatoire",aNoteEliminatoire,a1);
+        // afficheSi("Etudiants (foreach) :",tousLesEtudiants,a1);
+        // afficheSi("Etudiants Défaillant :",aDEF,a1);
+        // afficheSi("Etudiants Note Eliminatoire",aNoteEliminatoire,a1);
+        // afficheSi("Etudiants pas la moyenne V1",naPasLaMoyennev1,a1);
+        afficheSi("Etudiants pas la moyenne V2",naPasLaMoyennev2,a1);
     }
 
 
